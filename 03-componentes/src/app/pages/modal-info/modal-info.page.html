@@ -1,0 +1,21 @@
+<ion-header translucent>
+    <ion-toolbar>
+      <ion-title>Modal Content Info</ion-title>
+      <ion-buttons slot="end">
+        <ion-button (click)="salirModal()">Cerrar</ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+
+<ion-content>
+  <ion-item>
+    <ion-label>Nombre:</ion-label>
+    {{ nombre }}
+  </ion-item>
+  <ion-item>
+      <ion-label>País:</ion-label>
+      {{ pais }}
+    </ion-item>
+
+</ion-content>
