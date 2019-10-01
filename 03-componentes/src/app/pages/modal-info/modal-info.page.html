@@ -1,11 +1,11 @@
 <ion-header translucent>
-    <ion-toolbar>
-      <ion-title>Modal Content Info</ion-title>
-      <ion-buttons slot="end">
-        <ion-button (click)="salirModal()">Cerrar</ion-button>
-      </ion-buttons>
-    </ion-toolbar>
-  </ion-header>
+  <ion-toolbar>
+    <ion-title>Modal Content Info</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="salirModal()">Cerrar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
 
 
 <ion-content>
@@ -14,8 +14,16 @@
     {{ nombre }}
   </ion-item>
   <ion-item>
-      <ion-label>País:</ion-label>
-      {{ pais }}
-    </ion-item>
+    <ion-label>País:</ion-label>
+    {{ pais }}
+  </ion-item>
+  <ion-item>
+    <ion-label>Alias:</ion-label>
+    {{ obj[0] }}
+  </ion-item>
+  <ion-item>
+    <ion-label>DDD:</ion-label>
+    {{ obj[1] }}
+  </ion-item>
 
 </ion-content>
