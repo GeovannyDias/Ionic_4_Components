@@ -11,6 +11,7 @@ https://www.youtube.com/watch?v=RWCb_ARrSxM&list=PLCKuOXG0bPi2EGYmUq7eidFV8A95xT
 01::05- Módulo de componentes - Header
 *01::06- ion-list Listas en ionic - Parte 1
 
+*23- ion-popover
 
 
 Comandos:
@@ -20,6 +21,12 @@ ionic g page pages/alert --spec=false
 ionic g page pages/action-sheet --spec=false
 ionic g module components
 ionic g component components/header --spec=false
+
+*ionic g page pages/modal --spec=false
+*ionic g page pages/modal-info --spec=false
+
+*ionic g page pages/popover --spec=false
+*ionic g c components/popinfo --spec=false
 
 
 
