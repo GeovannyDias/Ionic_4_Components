@@ -16,6 +16,10 @@ https://www.youtube.com/watch?v=RWCb_ARrSxM&list=PLCKuOXG0bPi2EGYmUq7eidFV8A95xT
 
 *01::06- ion-list Listas en ionic - Parte 1
 
+20- ion-menu
+
+( ionic g c components/menu --spec=false )
+
 *23- ion-popover
 
 
@@ -36,6 +40,10 @@ ionic g component components/header --spec=false
 
 
 
+
+
+
+
 Codigo:
 
   //<ion-tab-button (click)="openCamera()">
@@ -44,6 +52,10 @@ Codigo:
   //</ion-tab-button>
 
 
+# Activar la persistencia de datos (Off-line) en AngularFireStore
+
+En el fichero "app.module.ts" en el import agregamos " .enablePersistence() " 
+AngularFirestoreModule.enablePersistence()
 
 
 
