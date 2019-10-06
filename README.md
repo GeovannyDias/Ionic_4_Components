@@ -7,15 +7,20 @@ https://www.youtube.com/watch?v=RWCb_ARrSxM&list=PLCKuOXG0bPi2EGYmUq7eidFV8A95xT
 01::01- Inicio del proyecto :: Componentes
 
 01::02- Cambiando la pantalla principal de la aplicación
+
 01::03- Navegación entre páginas
+
 01::04- Back Button - Botón para regresar a la página anterior
+
 01::05- Módulo de componentes - Header
+
 *01::06- ion-list Listas en ionic - Parte 1
 
 *23- ion-popover
 
 
 Comandos:
+
 ionic g page pages/inicio --dry-run (Ve lo que hara la linea de comando al ejecutarse)
 ionic g page pages/inicio
 ionic g page pages/alert --spec=false
