@@ -10,28 +10,7 @@ ionic g page pages/inicio --dry-run (Ve lo que hara la linea de comando al ejecu
 ionic g page pages/inicio
 ionic g page pages/alert --spec=false
 ionic g page pages/action-sheet --spec=false
-<<<<<<< HEAD
-ionic g module components
-ionic g component components/header --spec=false
-
-Modal
-ionic g page pages/modal --spec=false
-ionic g page pages/modal-info --spec=false
-
-
-
-
-Codigo:
-
-  //<ion-tab-button (click)="openCamera()">
-    //<ion-icon name="camera"></ion-icon>
-    //<ion-label>Photo</ion-label>
-  //</ion-tab-button>
-
-
-=======
 ```
->>>>>>> 927d8abbf417965314e197dfe9cecd05e09ebf93
 
 **01::02- Cambiando la pantalla principal de la aplicación**
 
