@@ -21,6 +21,11 @@ ionic g page pages/action-sheet --spec=false
 ionic g module components
 ionic g component components/header --spec=false
 
+Modal
+ionic g page pages/modal --spec=false
+ionic g page pages/modal-info --spec=false
+
+
 
 
 Codigo:
