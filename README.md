@@ -28,6 +28,9 @@ ionic g component components/header --spec=false
 **20- ion-menu**
 ```
 ionic g c components/menu --spec=false
+ionic g service services/data --spec=false
+crear fichero:
+assets/data-menu/menu.json
 ```
 **--23- ion-popover**
 
