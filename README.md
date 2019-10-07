@@ -4,7 +4,7 @@ All Components Ionic 4
 
 https://www.youtube.com/watch?v=RWCb_ARrSxM&list=PLCKuOXG0bPi2EGYmUq7eidFV8A95xTjEx&index=1
 
-01::01- Inicio del proyecto :: Componentes
+##### 01::01- Inicio del proyecto :: Componentes
 
 01::02- Cambiando la pantalla principal de la aplicación
 
@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=RWCb_ARrSxM&list=PLCKuOXG0bPi2EGYmUq7eidFV8A95xT
 
 *01::06- ion-list Listas en ionic - Parte 1
 
-20- ion-menu
+##### 20- ion-menu
 
 ( ionic g c components/menu --spec=false )
 
