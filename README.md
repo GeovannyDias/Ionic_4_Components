@@ -59,7 +59,9 @@ AngularFirestoreModule.enablePersistence()
 
 Cloud Firestore permite conservar datos sin conexión. Esta función almacena en caché una copia de los datos de Cloud Firestore que usa la app de forma activa, de modo que la app pueda acceder a los datos sin conexión en el dispositivo. Puedes escribir, leer, escuchar y consultar los datos en caché. Cuando el dispositivo vuelve a estar en línea, Cloud Firestore sincroniza los cambios locales que tu app hizo en el backend de Cloud Firestore.
 
-Consultar tambien LOCAL STORAGE:
+https://firebase.google.com/docs/firestore/manage-data/enable-offline?hl=es-419
+
+### Consultar tambien LOCAL STORAGE:
 
 Utilizar localstorage para guardar datos de forma persistente en tu aplicación, para que se mantengan ahí al volver a abrir la aplicación después de cerrarla, o al hacer un refresh cuando lo miramos a través del navegador.
 
