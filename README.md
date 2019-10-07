@@ -43,10 +43,39 @@ ionic g c components/menu --spec=false
 
 **Codigo:**
 ```
-  //<ion-tab-button (click)="openCamera()">
-    //<ion-icon name="camera"></ion-icon>
-    //<ion-label>Photo</ion-label>
-  //</ion-tab-button>
+  <ion-tab-button (click)="openCamera()">
+    <ion-icon name="camera"></ion-icon>
+    <ion-label>Photo</ion-label>
+  </ion-tab-button>
+  
+  <!-- Multi-line sliding item with icon options on both sides -->
+    <ion-item-sliding id="item100">
+      <ion-item href="#">
+        <ion-label>
+          <h2>HubStruck Notifications</h2>
+          <p>A new message in your network</p>
+          <p>Oceanic Next has joined your network</p>
+        </ion-label>
+        <ion-note slot="end">
+          10:45 AM
+        </ion-note>
+      </ion-item>
+
+      <ion-item-options side="start">
+        <ion-item-option>
+          <ion-icon slot="icon-only" name="heart"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+
+      <ion-item-options side="end">
+        <ion-item-option color="danger">
+          <ion-icon slot="icon-only" name="trash"></ion-icon>
+        </ion-item-option>
+        <ion-item-option>
+          <ion-icon slot="icon-only" name="star"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
 ```
 
 # Accede a datos sin conexión
