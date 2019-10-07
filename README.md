@@ -64,8 +64,7 @@ https://firebase.google.com/docs/firestore/manage-data/enable-offline?hl=es-419
 Utilizar localstorage para guardar datos de forma persistente en tu aplicación, para que se mantengan ahí al volver a abrir la aplicación después de cerrarla, o al hacer un refresh cuando lo miramos a través del navegador.
 
 # Ionic Realtime Chat with Socket.io
-
-https://www.youtube.com/watch?v=MGjRiinm67o
-https://devdactic.com/ionic-4-socket-io/
+* **https://www.youtube.com/watch?v=MGjRiinm67o**
+* **https://devdactic.com/ionic-4-socket-io/**
 
 
