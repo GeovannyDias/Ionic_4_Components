@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=RWCb_ARrSxM&list=PLCKuOXG0bPi2EGYmUq7eidFV8A95xT
 
 **Comandos:**
 ```
-* **ionic g page pages/inicio --dry-run (Ve lo que hara la linea de comando al ejecutarse)
+* **ionic g page pages/inicio --dry-run (Ve lo que hara la linea de comando al ejecutarse)**
 ionic g page pages/inicio
 ionic g page pages/alert --spec=false
 ionic g page pages/action-sheet --spec=false
