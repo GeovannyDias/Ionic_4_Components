@@ -60,7 +60,7 @@ Utilizar localstorage para guardar datos de forma persistente en tu aplicación,
 
 
 
-# Codigo util:
+# Código útil:
 ```
   <ion-tab-button (click)="openCamera()">
     <ion-icon name="camera"></ion-icon>
