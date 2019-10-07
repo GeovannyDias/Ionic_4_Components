@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=RWCb_ARrSxM&list=PLCKuOXG0bPi2EGYmUq7eidFV8A95xT
 
 **01::05- Módulo de componentes - Header**
 
-**--01::06- ion-list Listas en ionic - Parte 1*
+**--01::06- ion-list Listas en ionic - Parte 1**
 
 **20- ion-menu**
 
