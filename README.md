@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=RWCb_ARrSxM&list=PLCKuOXG0bPi2EGYmUq7eidFV8A95xT
 
 **Comandos:**
 ```
-* **ionic g page pages/inicio --dry-run (Ve lo que hara la linea de comando al ejecutarse)**
+ionic g page pages/inicio --dry-run (Ve lo que hara la linea de comando al ejecutarse)
 ionic g page pages/inicio
 ionic g page pages/alert --spec=false
 ionic g page pages/action-sheet --spec=false
@@ -48,7 +48,7 @@ ionic g component components/header --spec=false
 ```
 
 # Accede a datos sin conexión
-## Activar la persistencia de datos (Off-line) en AngularFireStore
+### Activar la persistencia de datos (Off-line) en AngularFireStore
 En el fichero "app.module.ts" en el import agregamos " .enablePersistence() "
 ```
 AngularFirestoreModule.enablePersistence()
@@ -57,7 +57,7 @@ Cloud Firestore permite conservar datos sin conexión. Esta función almacena en
 
 https://firebase.google.com/docs/firestore/manage-data/enable-offline?hl=es-419
 
-### Consultar tambien LOCAL STORAGE:
+**Consultar tambien LOCAL STORAGE:**
 
 Utilizar localstorage para guardar datos de forma persistente en tu aplicación, para que se mantengan ahí al volver a abrir la aplicación después de cerrarla, o al hacer un refresh cuando lo miramos a través del navegador.
 
