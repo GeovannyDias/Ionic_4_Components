@@ -25,6 +25,26 @@ ionic g component components/header --spec=false
 ```
 **--01::06- ion-list Listas en ionic - Parte 1**
 
+**08- ion-datetime**
+```
+variableFecha: Date = new Date();
+fecha.ISOString()
+
+<ion-datetime placeholder="Nacimiento"
+                display-format="YYYY MM DD"
+                cancelText="Cancelar..!!"
+                [ngModel]="variableFecha.toISOString()"
+                (ionChange)="cambioFecha( $ event )">
+  </ion-datetime>
+  
+  cambioFecha(  event ){
+  console.log('ionChange: ', event);
+  console.log('Date: ', new( Date event.detail.value ));
+  }
+  
+```
+* **https://momentjs.com/**
+
 **20- ion-menu**
 ```
 ionic g c components/menu --spec=false
