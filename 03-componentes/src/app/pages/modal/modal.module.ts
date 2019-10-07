@@ -8,6 +8,7 @@ import { IonicModule } from '@ionic/angular';
 import { ModalPage } from './modal.page';
 import { ModalInfoPage } from '../modal-info/modal-info.page';
 import { ModalInfoPageModule } from '../modal-info/modal-info.module';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 const routes: Routes = [
   {
@@ -25,7 +26,8 @@ const routes: Routes = [
     FormsModule,
     IonicModule,
     RouterModule.forChild(routes),
-    ModalInfoPageModule
+    ModalInfoPageModule,
+    ComponentsModule
   ],
   declarations: [ModalPage]
 })
