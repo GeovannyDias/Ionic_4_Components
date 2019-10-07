@@ -58,5 +58,8 @@ En el fichero "app.module.ts" en el import agregamos " .enablePersistence() "
 AngularFirestoreModule.enablePersistence()
 
 
+# Ionic Realtime Chat with Socket.io
+
+https://www.youtube.com/watch?v=MGjRiinm67o
 
 
