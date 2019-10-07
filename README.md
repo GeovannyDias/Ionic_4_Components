@@ -22,6 +22,40 @@ ionic g page pages/action-sheet --spec=false
 ```
 ionic g module components
 ionic g component components/header --spec=false
+
+components.module.ts
+declarations:
+HeaderComponent
+exports: (exportar todos los componentes que se usen en otras páginas)
+HeaderComponent
+imports: (Para que funsione las etiquetas de ionic)
+IonicModule
+
+Si quiero utilizar este módulo de componentes, importarlo en "app.module.ts":
+imports:
+ComponentsModule
+
+A cada page(componente) se debe declarar o importar en el fichero "page.module.ts":
+imports:
+ComponentsModule
+
+header.component.ts
+@Input() titulo: string;
+
+header.component.html
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/inicio">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-capitalize">{{ titulo }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+page.page.html
+<app-header titulo="alert"></app-header>
+
 ```
 **--01::06- ion-list Listas en ionic - Parte 1**
 
