@@ -44,12 +44,13 @@ ionic g component components/header --spec=false
 
 
 
-Codigo:
-
+**Codigo:**
+```
   //<ion-tab-button (click)="openCamera()">
     //<ion-icon name="camera"></ion-icon>
     //<ion-label>Photo</ion-label>
   //</ion-tab-button>
+```
 
 # Accede a datos sin conexión
 ## Activar la persistencia de datos (Off-line) en AngularFireStore
