@@ -66,5 +66,6 @@ Utilizar localstorage para guardar datos de forma persistente en tu aplicación,
 # Ionic Realtime Chat with Socket.io
 
 https://www.youtube.com/watch?v=MGjRiinm67o
+https://devdactic.com/ionic-4-socket-io/
 
 
