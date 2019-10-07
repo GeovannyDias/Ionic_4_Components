@@ -152,4 +152,5 @@ Utilizar localstorage para guardar datos de forma persistente en tu aplicación,
         </ion-item-option>
       </ion-item-options>
     </ion-item-sliding>
+    
 ```
