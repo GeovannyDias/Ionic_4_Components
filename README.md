@@ -54,9 +54,11 @@ Codigo:
 
 # Activar la persistencia de datos (Off-line) en AngularFireStore
 
-En el fichero "app.module.ts" en el import agregamos " .enablePersistence() " 
+En el fichero "app.module.ts" en el import agregamos " .enablePersistence() "
+
 AngularFirestoreModule.enablePersistence()
 
+Utilizar localstorage para guardar datos de forma persistente en tu aplicación, para que se mantengan ahí al volver a abrir la aplicación después de cerrarla, o al hacer un refresh cuando lo miramos a través del navegador. Si se realiza un CRUD en modo off-line (sin conexión a internet) y al habilitar la red se actualizara en la base de datos de manera automática.
 
 # Ionic Realtime Chat with Socket.io
 
