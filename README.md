@@ -23,7 +23,7 @@ ionic g page pages/action-sheet --spec=false
 ionic g module components
 ionic g component components/header --spec=false
 
-components.module.ts
+**components.module.ts**
 declarations:
 HeaderComponent
 exports: (exportar todos los componentes que se usen en otras páginas)
