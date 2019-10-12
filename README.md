@@ -88,8 +88,39 @@ fecha.ISOString()
 ```
 ionic g c components/menu --spec=false
 ionic g service services/data --spec=false
+
+**app.module.ts**
+import { ComponentsModule } from './components/components.module';
+import { HttpClientModule } from '@angular/common/http';
+Imports:
+ComponentsModule,
+HttpClientModule
+
+**data.interface.ts**
+export interface ComponentI {
+    icon: string;
+    name: string;
+    redirectTo: string;
+}
+
+**data.service.ts**
+import { HttpClient } from '@angular/common/http';
+import { ComponentI } from '../models/data.interface';
+private http: HttpClient
+getMenuOps(){
+    return this.http.get<ComponentI[]>('/assets/data-menu/menu.json');
+  }
+
 crear fichero:
 assets/data-menu/menu.json
+
+**app.component.html**
+<ion-app>
+  <app-menu></app-menu>
+  <ion-router-outlet id="principal-geo"></ion-router-outlet>
+</ion-app>
+
+
 ```
 **--23- ion-popover**
 
