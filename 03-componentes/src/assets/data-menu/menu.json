@@ -13,5 +13,10 @@
         "icon": "beaker",
         "name": "Modal",
         "redirectTo": "/modal"
+    },
+    {
+        "icon": "search",
+        "name": "Searchbar",
+        "redirectTo": "/searchbar"
     }
 ]

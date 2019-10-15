@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'action-sheet', loadChildren: './pages/action-sheet/action-sheet.module#ActionSheetPageModule' },
   { path: 'modal', loadChildren: './pages/modal/modal.module#ModalPageModule' },
   { path: 'popover', loadChildren: './pages/popover/popover.module#PopoverPageModule' },
+  { path: 'searchbar', loadChildren: './pages/searchbar/searchbar.module#SearchbarPageModule' },
   //{ path: 'modal-info', loadChildren: './pages/modal-info/modal-info.module#ModalInfoPageModule' },
 ];
 
