@@ -125,6 +125,40 @@ assets/data-menu/menu.json
 **--23- ion-popover**
 
 
+**27- ion-searchbar**
+**28- ion-searchbar :: Aplicando el filtro en la lista**
+
+```
+ionic g page pages/searchbar
+
+data.service.ts
+https://jsonplaceholder.typicode.com/albums
+
+PIPE: (Dentro del directorio vamos a crear todos los pipes que necesitamos)
+
+ionic g m pipes
+ionic g pipe pipes/filtro --spec=false
+
+pipes.module.ts
+
+exports:
+FiltroPipe
+
+app.module.ts
+
+imports:
+PipesModule
+
+searchbar.module.ts
+
+imports:
+PipesModule
+
+```
+
+
+
+
 **Comandos:**
 ```
 *ionic g page pages/modal --spec=false
