@@ -5,6 +5,7 @@ import { IonicModule } from '@ionic/angular';
 import { PopinfoComponent } from './popinfo/popinfo.component';
 import { MenuComponent } from './menu/menu.component';
 import { RouterModule } from '@angular/router';
+import { PopoverGeoComponent } from './popover-geo/popover-geo.component';
 
 
 
@@ -13,12 +14,14 @@ import { RouterModule } from '@angular/router';
   declarations: [
     HeaderComponent,
     PopinfoComponent,
-    MenuComponent
+    MenuComponent,
+    PopoverGeoComponent
   ],
   exports: [
     HeaderComponent,
     PopinfoComponent,
-    MenuComponent
+    MenuComponent,
+    PopoverGeoComponent
   ],
   imports: [
     CommonModule,

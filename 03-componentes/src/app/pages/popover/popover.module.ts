@@ -8,6 +8,7 @@ import { IonicModule } from '@ionic/angular';
 import { PopoverPage } from './popover.page';
 import { PopinfoComponent } from 'src/app/components/popinfo/popinfo.component';
 import { ComponentsModule } from 'src/app/components/components.module';
+import { PopoverGeoComponent } from 'src/app/components/popover-geo/popover-geo.component';
 
 const routes: Routes = [
   {
@@ -18,7 +19,8 @@ const routes: Routes = [
 
 @NgModule({
   entryComponents: [
-    PopinfoComponent
+    PopinfoComponent,
+    PopoverGeoComponent
   ],
   imports: [
     CommonModule,

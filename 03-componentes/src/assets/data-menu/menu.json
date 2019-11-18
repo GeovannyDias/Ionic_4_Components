@@ -18,5 +18,10 @@
         "icon": "search",
         "name": "Searchbar",
         "redirectTo": "/searchbar"
+    },
+    {
+        "icon": "tablet-portrait",
+        "name": "Popover",
+        "redirectTo": "/popover"
     }
 ]
