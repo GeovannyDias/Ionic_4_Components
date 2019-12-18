@@ -67,18 +67,19 @@ ComponentsModule
 **08- ion-datetime**
 ```
 variableFecha: Date = new Date();
-fecha.ISOString()
+variableFecha.ISOString() //Formato que acepta ion-datetime
+fecha.ISOString() //Formato que acepta ion-datetime
 
 <ion-datetime placeholder="Nacimiento"
                 display-format="YYYY MM DD"
                 cancelText="Cancelar..!!"
                 [ngModel]="variableFecha.toISOString()"
-                (ionChange)="cambioFecha( $ event )">
+                (ionChange)="cambioFecha( $event )">
   </ion-datetime>
   
   cambioFecha(  event ){
   console.log('ionChange: ', event);
-  console.log('Date: ', new( Date event.detail.value ));
+  console.log('Date: ', new Date(event.detail.value ));
   }
   
 ```
