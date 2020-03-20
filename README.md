@@ -87,6 +87,8 @@ fecha.ISOString() //Formato que acepta ion-datetime
 
 **20- ion-menu**
 ```
+ionic g m components
+
 ionic g c components/menu --spec=false
 ionic g service services/data --spec=false
 
